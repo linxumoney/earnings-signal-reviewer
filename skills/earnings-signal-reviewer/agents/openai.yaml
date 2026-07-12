@@ -1,0 +1,7 @@
+interface:
+  display_name: "财报信号审阅器"
+  short_description: "把财报事实、管理层叙事和分析推断分开"
+  default_prompt: "使用 $earnings-signal-reviewer 分析这份财报，检查预期差、盈利质量、指引变化和后续验证点。"
+
+policy:
+  allow_implicit_invocation: true
